@@ -130,6 +130,7 @@ public class Vehiculo {
 		this.traccion=traccion;
 		this.fabricante=fabricante;
 		CantidadVehiculos++;
+		this.fabricante.masVentas();
 	}
 	
 	public String vehiculosPorTipo() {
